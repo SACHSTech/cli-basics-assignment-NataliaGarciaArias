@@ -1,1 +1,22 @@
-
+~/cli-basics-assignment-NataliaGarciaArias$ pwd
+/home/runner/cli-basics-assignment-NataliaGarciaArias
+~/cli-basics-assignment-NataliaGarciaArias$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-NataliaGarciaArias$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-NataliaGarciaArias$ cd CLIBasicsFolder/
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ echo Natalia Garcia-Arias, ICS4U1 >> myfile.txt 
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ cat myfile.txt 
+Natalia Garcia-Arias, ICS4U1
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ mv myfile2.txt ~/myfile2.txt
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ ls ~
+cli-basics-assignment-NataliaGarciaArias  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-NataliaGarciaArias/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-NataliaGarciaArias$ rm ./CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-NataliaGarciaArias$ rmdir CLIBasicsFolder/
+~/cli-basics-assignment-NataliaGarciaArias$ ls ~
+cli-basics-assignment-NataliaGarciaArias  myfile2.txt  _test_runner.py
